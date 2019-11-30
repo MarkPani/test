@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="üldstyle.css">
+	<link rel="stylesheet" type="text/css" href="klipid.css">
+	<title>Klipid</title>
+</head>
+<body>
+	<nav>
+		<div class="lingid">
+			<a href="koduleht.html" class="link">Filmist</a>
+			<a href="tarantino.html" class="link">Tarantino</a>
+			<a href="näitlejad.html" class="link">Näitlejad</a>
+			<a href="klipid.html" class="link">Klipid</a>
+		</div>
+	</nav>
+	<main data-router-wrapper>
+		<section data-router-view="home" class="home">
+			<div class="tara-content">
+				<div class="home-presentation">
+<!--sealt sain koodi, minu oma veidi borked :D https://woosterwebdesign.com/responsive-youtube-player-with-playlist/-->
+					<div class="vid-container">
+							<iframe id="vid_frame" src="https://www.youtube.com/embed/AJvSSyU5_As?list=PL5YpZpRMCpaGjPQSMK9Sh_JUDDwRIrMiC" width="560" height="315" frameborder="0"></iframe>
+						</div>
+						<div class="itemcont">
+							<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/AJvSSyU5_As'">
+								<div class="thumb">
+									<img src="https://i.ytimg.com/vi/AJvSSyU5_As/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAfospYYv6W9a_hFUp4iXAlc9WcGA" alt="" />
+								</div>
+								<div class="desc">
+									Tantsustseen
+								</div>
+							</div>
+						</div>
+						<div class="itemcont">
+							<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/crR6pBGMZ90'">
+								<div class="thumb">
+									<img src="https://i.ytimg.com/vi/crR6pBGMZ90/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCPJnenXOvA9ZHwT9sEjfo2YhaiZA" alt="" />
+								</div>
+								<div class="desc">
+									Julesi piiblitsitaat
+								</div>
+							</div>
+						</div>
+						<div class="itemcont">
+							<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/jpMxpzfSRUA'">
+								<div class="thumb">
+									<img src="https://i.ytimg.com/vi/jpMxpzfSRUA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD6J1L1lPnAhkAABPwA2IcXpx_1-A" alt="" />
+								</div>
+								<div class="desc">
+									Süstal Mia südamesse
+								</div>
+							</div>
+						</div>
+						<div class="itemcont">
+							<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/K99oV99ja2c'">
+								<div class="thumb">
+									<img src="https://i.ytimg.com/vi/K99oV99ja2c/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBhcoeMM_Repto78p5Oq6YhOWuBxQ" alt="" />
+								</div>
+								<div class="desc">
+									Keldrist pääsemine
+								</div>
+							</div>
+						</div>
+						<div class="itemcont">
+							<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/qMvb5jUMR80'">
+								<div class="thumb">
+									<img src="https://i.ytimg.com/vi/qMvb5jUMR80/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD63mHpqHhVEmroFaTSCDUKXkqC7Q" alt="" />
+								</div>
+								<div class="desc">
+									Naljakaimad stseenid
+								</div>
+							</div>
+						</div>
+						<div class="itemcont">
+							<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/w7Ax3HQaPvM'">
+								<div class="thumb">
+									<img src="https://i.ytimg.com/vi/w7Ax3HQaPvM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBFulW5U4E42O6D-bVq0v2pFK6IAg" alt="" />
+								</div>
+								<div class="desc">
+									Põnevaid fakte filmi kohta
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="./js/index.js"></script>
+
+
+</body>
+</html>

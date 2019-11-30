@@ -1,0 +1,100 @@
+body{
+	background-color: #8b6f47;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-size: 25px;
+	font-family: "courier new";
+	text-align: center;
+}
+
+a:link{
+	color: #bbab9b;
+	text-decoration: none;
+	font-family: "courier new";
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
+a:visited{
+	color: #bbab9b;
+}
+
+img{
+	display: block;
+	margin: auto;
+	padding: auto;
+}
+
+.lingid{
+	font-size: 40px;
+	text-align: center;
+
+}
+
+.link{
+	width: 25%;
+	margin: 100px;
+	padding: 10px 10px 10px 10px;
+	background-color: #4f3222;
+}
+
+.vid-container {
+	position: relative;
+	padding-bottom: 52%;
+	padding-top: 30px; 
+    height: 0;
+}
+
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	width: 80%;
+    height: 80%;
+}
+.vid-item {
+	display: inline-block;
+	width: 148px;
+    height: 148px;
+    left: 10px;
+    margin: 5px 5px;
+}
+
+.thumb {
+	overflow:hidden;
+	height: 84px;
+}
+
+.thumb img {
+	width: 100%;
+	position: relative;
+
+}
+
+.vid-item .desc {
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	margin-top:5px;
+}
+.itemcont {
+    width: auto;
+    position: relative;
+    left: 25%;
+    float: left;
+    top: -140px;
+
+}
+.thumb img:hover,
+.desc:hover {
+	cursor: pointer;
+	opacity: 0.9
+}
+
+/*# sourceMappingURL=/klipid.0c5e599c.css.map */

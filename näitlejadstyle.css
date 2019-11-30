@@ -1,0 +1,19 @@
+.isikutekst{
+	font-size: 20px;
+	max-width: 60%;
+	float: left;
+}
+
+.isikupilt{
+	max-width: 30%
+	padding-right: 40px;
+	padding-top: 20px
+
+}
+
+.nimi{
+	font-size: 50px;
+	text-align: center;
+	color: black;
+	padding-top: 50px
+}
